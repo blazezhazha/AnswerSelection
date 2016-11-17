@@ -119,9 +119,5 @@ if __name__ == '__main__':
     output = open('out_file.txt', 'w')
     lines = open_file()
     process(lines, output)
-
-
-
-    # output.close()
-            # seg_list = sentence_parse(sentence)
+    output.close()
 
